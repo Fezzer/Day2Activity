@@ -4,6 +4,7 @@ body {
     color: #333333;
     margin: 0;
     padding: 0;
+    line-height: 150%;
 }
 
 header {
@@ -13,22 +14,33 @@ header {
 h1 {
     color: #eee;
     font-size: 28px;
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 28px;
+    text-align: center;
 }
 
 h2 {
     font-size: 24px;
 }
 
+a {
+    color: #d21034;
+}
 .container {
     margin: 0 auto;
+    width: 80%;
 }
 
-#main-bio #contact-info #bio-image {
+#main-bio, 
+#contact-info, 
+#bio-image {
     float: left;
 }
 
 #bio-image {
     width: 200px;
+    margin-right: 20px;
 }
 
 #main-bio {
@@ -37,8 +49,4 @@ h2 {
 
 #contact-info {
     width: 30%;
-}
-
-a {
-    color: #d21034;
 }
